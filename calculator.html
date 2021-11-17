@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>calculator</title>
+    <script>
+        function calculate(arg)
+        {
+            var number1=parseInt(document.getElementById("number1").value)
+            var number2=parseInt(document.getElementById("number2").value)
+            //alert(arg)
+            //document.getElementById("number3").Value=number1+number2
+            if(arg===1)
+{
+    document.getElementById("number3").value=number1+number2
+}
+if(arg===2)
+{
+    document.getElementById("number3").value=number1-number2
+}
+        }
+        function calculate1()
+        {
+            var number1=parseInt(document.getElementById("number1").value)
+            var number2=parseInt(document.getElementById("number2").value)
+            //alert(number1)
+            document.getElementById("number3").value=number1-number2
+        }
+        
+    </script>
+</head>
+<body>
+    <h1>calculator</h1>
+    <h3>first number<input type="text" id="number1"></h3>
+    <h3>second number<input type="text" id="number2"></h3>
+    <h3>result<input type="text" id="number3"></h3>
+<td>
+    <button onclick="calculate(1)">+</button>
+    <button onclick="calculate(2)">-</button>
+</td>
+</body>
+</html>
