@@ -1,12 +1,15 @@
-import React from 'react';
-import Navigation from './Navigation';
-var Homepage=()=>{
-    return(
+import React from "react"
+import Secondpage from "./Secondpage"
+import Navigation from "./Navigation"
+
+
+const Homepage = () => {
+    return (
         <>
-        <Navigation/>
-        
-        <p>This is Homepage</p>
+            <Navigation />
+            <p> This is a text from homepage</p>
+            <Secondpage />
         </>
-    );
+    )
 }
-export default Homepage;
+ export default Homepage
