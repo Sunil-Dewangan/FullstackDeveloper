@@ -1,10 +1,11 @@
-import React from "react";
+import React from "react"
 
-import {Navbar, Nav} from "react-bootstrap"
-var Navigation= () =>{
+const Navigation = () => {
+
     return(
-    <>
-    <Navbar bg="dark" variant="dark">
+
+        <>
+        <Navbar bg="dark" variant="dark">
 
 <Navbar.Brand href="#home">Navbar</Navbar.Brand>
 <Nav className="me-auto">
@@ -14,7 +15,10 @@ var Navigation= () =>{
 </Nav>
 
 </Navbar>
-    </>
+
+
+        </>
     )
 }
-export default Navigation;
+
+export default Navigation

@@ -1,12 +1,13 @@
 import React from "react";
-import Thirdpage from "./Thirdpage";
+import
+const Secondpage = () => {
+   return(
+    <>
+    <p>
+        This is the second page
+    </p>
+    </>
+   )
 
-var Secondpage=()=>{
-    return(
-        <>
-        <p>......</p>
-        <Thirdpage/>
-        </>
-    );
 }
-export default Secondpage;
+ export default Secondpage

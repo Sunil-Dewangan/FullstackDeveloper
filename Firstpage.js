@@ -8,4 +8,4 @@ var Firstpage=()=>{
        
     );
 }
-export default Firstpage
+export default Firstpage;
