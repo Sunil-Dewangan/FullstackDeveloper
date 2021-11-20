@@ -1,6 +1,6 @@
 import React from "react"
 //import Secondpage from "./Secondpage"
-//import Navigation from "./Navigation"
+import Navigation from "./Navigation"
 import "./Styles.css"
 import Iglogo from "./Images/Iglogo.png"
 import { ImGoogle } from "react-icons/im"
@@ -11,6 +11,9 @@ const Homepage = () => {
     return (
 
         <>
+            <Row>
+                <Navigation />
+            </Row>
             <Row style={{ height: "730px" }}>
                 {/*This is the left Column*/}
                 <Col sm={5} className="lftcolbg">
