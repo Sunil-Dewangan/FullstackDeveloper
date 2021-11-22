@@ -1,40 +1,13 @@
-import React from "react"
-import Secondpage from "./Secondpage"
-import Navigation from "./Navigation"
-import "./Styles.css"
-
-import { Row, Col } from "react-bootstrap"
-
-const Homepage = () => {
-
-    return (
-
+import React from "react";
+import Firstpage from "./Firstpage"; 
+import Navigetion from "./Navigetion"
+var Homepage=()=>{
+    return(
         <>
-
-            <Navigation />
-
-            <Row>
-                <Col xs={6} className="fontstylings">
-                    This is first column
-                </Col>
-
-                <Col xs={6} className="fontstylings">
-                    This is second column
-                </Col>
-
-                {/*<Col >
-                    This is third column
-                </Col>
-
-                <Col >
-                    This is fourth column
-                </Col>*/}
-            </Row>
-
-
+        <Navigetion/>
+        <p>This is my first page</p>
+        <Firstpage/>
         </>
-
     )
 }
-
-export default Homepage
+export default Homepage;
