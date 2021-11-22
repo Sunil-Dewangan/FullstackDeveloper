@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { Row, Col } from "react-bootstrap"
 import Navigation from "./Navigation"
 
@@ -10,7 +10,18 @@ const Reacthooksdemo = () => {
 
     const [show, setShow] = useState(false)
 
-    console.log(show)
+    useEffect(
+        () => {
+
+            console.log("The current status of the state named show is " + show)
+            //funDemo()
+        }, [])
+
+    /*const funDemo = () => {
+        alert("This is under a simple function")
+    }*/
+
+    //console.log(show)
 
     return (
         <>
@@ -45,7 +56,7 @@ const Reacthooksdemo = () => {
                     <Row className="mt-5">
                         {
                             show ?
-                            "Show this component on the click of the show button"
+                                "Show this component on the click of the show button"
                                 :
                                 null
                         }
@@ -53,7 +64,7 @@ const Reacthooksdemo = () => {
 
                     <Row >
                         <button className="loginbutton"
-                            onClick={() => setShow(true)}
+                            onClick={() => { setShow(!show) }}
                         >Show</button>
                     </Row>
 

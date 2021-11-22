@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 //import Homepage from "./Homepage"
 //import Secondpage from './Secondpage';
