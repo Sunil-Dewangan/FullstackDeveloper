@@ -1,13 +1,15 @@
 import Homepage from './Component/Homepage';
+// import Reacthooks from './Hooks/Reacthooks';
 //import Secondpage from './Component/Secondpage';
 //import Navigation from './Component/Navigation';
-import "./styles.css"
+
 const App = () => {
   return (
     <>
-   {/*} <Navigation/>*/}
-      <Homepage/>
-      
+
+      <Homepage />
+      {/* < Reacthooks /> */}
+      {/* <Navigation /> */}
     </>
   );
 }

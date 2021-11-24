@@ -1,0 +1,177 @@
+
+.rowheightg
+{
+height: 800px;
+color: rgb(255, 0, 43);
+background-color: rgb(225, 225, 247);
+}
+.rowfirst 
+{
+    color: rgb(66, 66, 85);
+      font-size: 40px;
+      font-weight: 200;
+      /* border-top: 20px; */
+}
+
+.rowfirstsecond
+{
+    font-size: 65px;
+    font-weight: 400;
+    /* margin-top: 10;
+    height: 25px; */
+    color: black;
+
+}
+.margins
+{
+    margin-right: 25px;
+}
+
+.justify
+{
+    justify-content: center;
+    display: flex;
+}
+.batch
+{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(22, 22, 31);
+}
+.circle
+{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 30px;
+    align-items: initial;
+    display: flex;
+}
+.onetwothree
+{
+font-weight: 50px;
+font-size: 25px;
+color: rgb(8, 4, 44);
+}
+
+.num
+{
+font-weight: 60px;
+font-size: 20px;
+color: black;
+}
+
+.lowernumseries
+{
+font-weight: 60px;
+font-size: 15px;
+color: black;
+}
+
+
+.user
+{
+font-size: 15px;
+font-weight: 200;
+text-align: left;
+color: black;    
+}
+
+
+.login
+{
+font-size: 30px;
+font-weight: 800;
+text-align: left;
+color: blue; 
+border-bottom: 5px solid blue;
+width: 85px;   
+}
+
+
+.register
+{
+font-size: 30px;
+font-weight: 600;
+text-align: left;
+color: black; 
+width: 85px;   
+}
+.inputfield
+{
+    width: 400px !important;
+    height: 65px ;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+.button
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(23, 23, 214);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.pwd
+{
+    font-size: 18px;
+    font-weight: 500;
+    color: orange;
+}
+
+.icons
+{
+background-color: red;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+color: white;
+
+}
+.img
+{
+    width: 300px !important;
+    height: 70px;
+}
+
+
+
+.center
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.logosize
+{
+    width: 2000px;
+    height: 70px;
+}
+.rhooks
+{
+background-color: blue;
+
+}
+.threeicon
+{
+background-color: red;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+color: white;
+}
+.navlogo
+{
+    height: 60px;
+    width: 100px;
+}
+.navrow
+{
+background-color: rgb(96, 96, 230);
+height: 300px;
+
+}
