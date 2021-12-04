@@ -1,0 +1,30 @@
+.fontstylings{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: blue;
+    background-color: aqua;
+}
+.fontstyle2{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(16, 99, 99);
+    background-color: aquamarine;
+}
+.backgnd{
+    font-size: 30px;
+    background-color: aqua;
+}
+.b{
+    background-color: aqua;
+}
+
+.forgetPassword{
+    font-size: 25px;
+color: coral;
+}
+
+.login{
+    color: darkblue;
+}

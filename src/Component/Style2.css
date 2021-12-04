@@ -1,0 +1,109 @@
+.center{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.image{
+    width: 10px;
+    height: 90px;
+}
+.leftrow{
+    background-color: rgb(221, 243, 243);
+}
+
+.leftcoltoptext{
+    font-size: 45px;
+    font-weight: 200;
+    color: rgb(47, 47, 83);
+}
+.leftcolboldtext{
+    font-size: 45px;
+    font-weight: 600;
+    color: rgb(47, 47, 83);
+}
+.circle{
+    width: 65px !important;
+    height: 65px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.circletext{
+    font-size: 25px;
+    font-weight: 600;
+}
+.lefttext{
+    font-size: 27px;
+    font-weight: 450;
+    color: rgb(47, 47, 83);
+}
+.lefttext1{
+    font-size: 15px;
+    color: rgb(47, 47, 83);
+}
+.dottext{
+   
+    color: rgb(47, 47, 83);
+}
+
+.existingUser{
+    font-size: 14px;
+    font-weight: 200;
+    text-align: left;
+    color: rgb(88, 88, 88);
+}
+.login{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: left;
+    color: blue;
+    border-bottom: 5px solid blue;
+    width: 80px;
+   
+}
+.register{
+    font-size: 35px;
+    font-weight: 100;
+    color: rgb(80, 72, 62);
+}
+.email{
+    width: 500px;
+    height: 65px;
+    border: 3px solid rgb(95, 92, 92);
+    border-radius: 10px;
+}
+.loginButton{
+    width: 100px;
+    height: 48px;
+    color: white;
+    background-color: rgb(18, 18, 85);
+    border-radius: 15px;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+.forgoat{
+    font-size: 20px;
+    font-weight: 80;
+    color: orangered;
+}
+.googleIcon{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color: white;
+    background-color: red;
+}
+.facebookicon{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color: white;
+    background-color: rgb(58, 58, 139);
+}
+.linkedin{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color: white;
+    background-color: rgb(33, 30, 209);
+}
