@@ -1,0 +1,409 @@
+
+.imgstyle{
+    width: 250px !important;
+    height: 65px;
+}
+.lftcolbg{
+    /*background-color: rgb(207, 52, 184);*/
+    background-color: hsla(310, 63%, 79%, 0.644);
+    height: 700px;
+}
+.Rowheight
+{
+    height: 700px;
+}
+.sideimgstyle{
+    width: 80% !important;
+    height: 100%;
+}
+.helpstyle{
+    font-size: 50px;
+    font-weight: 200px;
+    font-family: "Dancing Script",cursive;
+}
+.comeback{
+    margin-left: -40px;
+    font-size: 2.5rem;
+    font-family: "Raleway",sans-serif;
+    font-weight: bolder!important;
+    box-sizing: border-box;
+    display: block;
+    ;
+}
+.schoolstyle{
+    width: 80px;
+    height: 80px;
+}
+.learnmorebutton{
+   /* width: 200px;
+    height: 50px;
+    background-color: rgb(6, 6, 136);
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center; */
+    padding: 1em 2.5em; 
+    background-color: #1d76fa;
+    color: #fff;
+    border: none;
+    border-radius: 14px;
+    margin-bottom: 20px;
+    margin-right: 5%;
+}
+.donatebutton{
+    padding: 1em 2.5em; 
+    background-color: #edf0f3;
+    color: rgb(14, 13, 13);
+    border: none;
+    border-radius: 14px;
+    margin-bottom: 20px;
+    margin-right: 5%;
+}
+.headerimgstyle{
+    width: 500px;
+    height: 500;
+   /* -webkit-user-select: none;*/
+    /*margin: auto;*/
+   /* cursor: zoom-in;*/
+    /*transition: background-color 100ms;*/
+}
+.firstline{
+    font-size: 20px;
+    font-weight: 600; 
+   
+}
+.secondpage{
+ font-size: 30px;
+ text-align: center;
+}
+.smallcircle{
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(67, 185, 67);
+    border-radius: 100%;
+   /* position: absolute;*/
+}
+.majinestyle{
+    font-size:35px;
+    font-weight: 700;
+    color: rgb(5, 5, 5);
+}
+.secondpagecolor{
+    background-color:rgb(199, 225, 235);
+}
+.halfcircle{
+    width: 300px;
+    height: 300px;
+    left: 100px;
+    top: 10px;
+}
+.ourstyle{
+    list-style: 4px;
+    line-clamp: 2px;
+    font-size: 1.25rem;
+    font-style: initial;
+    color: #ff059b;
+    font-weight: 700!important;
+    margin-top: 1.5rem!important;
+    margin-bottom: 1.5rem!important;
+    box-sizing: border-box;
+    display: block;
+}
+.allstyle{
+    margin-left: -40px;
+    font-size: 3.2rem;
+    font-family: "Dancing Script",cursive;
+    box-sizing: border-box;
+}
+.forstyle{
+    font-size: 2.5rem;
+    font-family: "Raleway",sans-serif;
+    font-weight: 700!important;
+    box-sizing: border-box;
+}
+.loremstyle{
+    margin-top: 1.5rem!important;
+    margin-bottom: 1.5rem!important;
+    box-sizing: border-box
+}
+.home-mission-zigzag-blue{
+    position: absolute;
+    top: 15%;
+    right: -100%;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.home-mission-card-1 {
+    grid-area: card1;
+    padding: 30% 5%;
+    /*border-radius: 24px;
+    box-shadow: -25px 20px 100px 0 rgb(0 0 0 / 8%);
+    background-color: #fff;
+    
+    /*-webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    width: 200px;
+    box-sizing: border-box;*/
+}
+.home-mission-card{
+    text-align: center;
+}
+.white-bg {
+    border-radius: 24px;
+    box-shadow: -31px 39px 117px 0 rgb(0 0 0 / 8%);
+    background-color: #fff;
+}
+.fs-14 {
+    font-size: .875rem;
+}
+.home-mission-star{
+    /*position: absolute;*/
+    bottom: 60%;
+    left: -5%;
+    left: 0%;
+    top: 20%;
+    width: 20px;
+    box-sizing: border-box;
+}
+.home-mission-zigzag-blue2{
+    position: absolute;
+    top: 15%;
+    right: -100%;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.home-student-data {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 15px;
+    gap: 15px;
+    align-items: center;
+    grid-template-areas:
+        "data1 data2"
+        "data3 data4";
+    position: relative;
+    width: 100%;
+    padding: 10%;
+    z-index: 8;
+    border-radius: 20px;
+    box-shadow: -31px 39px 117px 0 rgb(0 0 0 / 8%);
+    background-color: #fff;
+}
+.thirdpage{
+    background-color: #d4d1d1;
+}
+.ourstyle{
+    font-size: 1.25rem;
+    color: #ff059b;
+    font-family: "Raleway",sans-serif;
+    font-weight: 700!important;
+    margin-top: 1rem!important;
+    margin-bottom: 1rem!important;
+} 
+.meetstyle{
+    font-size: 2.5rem;
+    font-family: "Dancing Script",cursive;
+} 
+.shiningstyle{
+    font-size: 2.5rem;
+    font-family: "Raleway",sans-serif;
+    font-weight: 700!important;
+}
+.threestyle{
+    font-size: 2.5rem;
+    color: #42a1ef;
+    font-family: "Poppins",sans-serif;
+    font-weight: 700!important;
+}
+.onstyle{
+    font-size: .875rem;
+}
+.protecting {
+    font-size: 30px;
+    font: bold;
+    font-family: cursive;
+    font-weight: 50;
+}
+.bright {
+    font-size: 45px;
+    font-weight: 700;
+}
+.box1 {
+    height: 100px;
+    width: 90px;
+    border-radius: 10px;
+    color: gray;
+    background-color: aliceblue;
+}
+
+.box1text {
+
+    font-size: 30px;
+    font-family: 'Arial Narrow Bold';
+    font-weight: 90px;
+    color: black;
+
+}
+.student1{
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+}
+.viewbutton{
+    padding: 1em 2.5em; 
+    background-color: #e453b3;
+    color: #fff;
+    border: none;
+    border-radius: 14px;
+    margin-bottom: 20px;
+    margin-right: 5%;
+}
+.eduction{
+    font-size: 25px;
+    font-weight: 600; 
+}
+.lorem{
+    font-size: 20px;
+    font-weight: 400;  
+}
+.fouth{
+    background-color: pink
+}
+.what{
+    font-size: 1.125rem;
+    color: #ff059b;
+    font-weight: 700!important;
+    margin-top: 1.5rem!important;
+    margin-bottom: 1.5rem!important;
+}
+.dostyle{
+    color: #414a5a;
+    font-family: "Dancing Script",cursive;
+    font-size: 60px;
+}
+.asstyle{
+    font-size: 2.5rem;
+    color: #414a5a;
+    font-weight: 700!important;
+}
+
+.home-volunteer-section-partners-btn {
+    padding: 1.75em 2em;
+    margin: 20px 20px 20px 0;
+    color: #333536;
+    border: none;
+    border-radius: 15px;
+}
+.mx-4 {
+    margin-right: 1.5rem!important;
+    margin-left: 1.5rem!important;
+}
+.Partners{
+    padding: 3.5em 5em; 
+    background-color: #f8f2f6;
+    color: rgb(14, 13, 13);
+    border: none;
+    border-radius: 14px;
+    margin-bottom: 20px;
+    margin-right: 5%;
+}
+.Volunteers{
+    padding: 3.5em 5em; 
+    background-color: rgb(216, 93, 175);
+    color: rgb(14, 13, 14);
+    border: none;
+    border-radius: 14px;
+    margin-bottom: 20px;
+    margin-right: 5%; 
+}
+.news{
+    font-size: 1.25rem;
+    color: #ff059b;
+    font-family: "Raleway",sans-serif;
+    font-weight: 700!important;
+    text-align: center;
+}
+.latest{
+    font-size: 3.2rem;
+    font-family: "Dancing Script",cursive;
+    font-size: 60px;
+    text-align: center;
+}
+.home-event-card img {
+    border-radius: 18px 18px 0 0;
+    display: block;
+    width: 100%;
+    text-align: left;
+    word-wrap: break-word;
+}
+.textstyle{
+    font-weight: 700!important;
+    margin-bottom: 0.5rem;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2
+}
+.viewbutton2{
+    padding: 1em 3em; 
+    background-color: #4fa6e0;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 200;
+    border-radius: 14px;
+    margin-bottom: 20px;
+    margin-right: 5%;
+}
+.pink-font {
+    color: #ff059b;
+    font-weight: 700!important;
+    text-align: center;
+}
+.fs-45 {
+    font-size: 3.2rem;
+    font-family: "Dancing Script",cursive;
+    font-size: 60px;
+    text-align: center;
+}
+.fs-40 {
+    font-size: 2.5rem;
+    font-weight: 700!important;
+    text-align: center;
+}
+.home-donor-tab-active {
+    position: relative;
+    color: #42a1ef;
+    cursor: pointer;
+    font-weight: 700!important;
+    text-align: center;
+}
+.fs-20 {
+    font-size: 1.25rem;
+    font-weight: 700!important;
+    text-align: center;
+}
+.pagecolor{
+    background-color: rgb(152, 225, 228);
+}
+
+.fs-200 {
+    font-size: 1.25rem;
+    font-weight: 700!important;
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)*0.5);
+    padding-left: calc(var(--bs-gutter-x)*0.5);
+    margin-top: var(--bs-gutter-y);
+    box-sizing: border-box
+}
