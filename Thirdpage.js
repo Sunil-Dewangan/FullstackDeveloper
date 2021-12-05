@@ -1,14 +1,18 @@
 import React from "react";
-import Fourthpage from"./Fourthpage";
 
-var Thirdpage=()=>{
+import Navigation from "./Navigation";
 
-    return(
+
+const Thirdpage = () => {
+    return (
         <>
+            <Navigation />
+            <p className="fontstylings">
+                This is the third page
+            </p>
 
-        <p> The greatest pleaser of life is love</p>
-        <Fourthpage/>
         </>
     )
 }
-export default Thirdpage;
+
+export default Thirdpage
