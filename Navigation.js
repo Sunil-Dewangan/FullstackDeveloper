@@ -1,34 +1,20 @@
-import React from 'react'
-import { Nav, Navbar } from 'react-bootstrap'
-import AshaLogo from './images/AshaLogo.png'
-import { Row, Col } from "react-bootstrap"
+import React from "react"
+
+import {Navbar, Nav} from "react-bootstrap"
+import {Link} from "react-router-dom"
 
 const Navigation = () => {
+
     return (
-
         <>
-            <Row >
-                <Col sm={5}>
-                    <Navbar.Brand href="#home">
-                        <Row className="navlogo">
-                            <img src={AshaLogo} alt="" />
-                        </Row>
-                    </Navbar.Brand>
+            <Navbar bg="dark" variant="dark">                
+                <Nav className="me-auto">
+                    <Nav.Link as={Link} to="/">Home</Nav.Link>
+                    <Nav.Link as={Link} to="/Secondpage">Second page</Nav.Link>
+                   
+                </Nav>
 
-                </Col>
-                <Col>
-                    <Nav.Link href="#Reachooks" className="">Learn more about us</Nav.Link>
-                </Col><Col>
-                    <Nav.Link href="#Reachooks">Get involved</Nav.Link>
-
-                </Col>
-                <Col>
-                    <Nav.Link href="#Reachooks">latest Updates</Nav.Link>
-                </Col><Col>
-                    <Nav.Link href="#Reachooks">Contact us</Nav.Link>
-                </Col>
-
-            </Row>
+            </Navbar>
         </>
     )
 }
