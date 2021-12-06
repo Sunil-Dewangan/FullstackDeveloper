@@ -1,0 +1,120 @@
+.logo1{
+    height: 50px;
+    width: 250px;
+}
+.happyChild{
+    background-color: rgb(250, 223, 244);
+}
+.colour{
+    background-color: rgb(247, 245, 241);
+}
+
+.helpingChildreen{
+    font-style: italic;
+    font-size: 35px;
+
+}
+
+.comebacktoSchool{
+    font-size: 40px;
+    font-weight: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.logo2{
+    height: 40px;
+    width: 90px;
+}
+
+.learnMore{
+    color: whitesmoke;
+    background-color: rgb(12, 12, 248);
+    border-color: rgb(12, 12, 240);
+    height: 55px;
+    width: 200px;
+    border-radius: 14px;
+}
+.donate{
+    color: black;
+    background-color: white;
+    border-color: white;
+    height: 55px;
+    width: 100px;
+    border-radius: 14px;
+
+}
+.meetOurPartnae{
+    font-size: 30px;
+    font-weight: 50px;
+    color: black; 
+    font-style: bold; 
+}
+.theirdPage{
+background-color: rgb(233, 242, 245);
+}
+.ourMission{
+    font-size: 20px;
+    font-weight: 700;
+    color: #ff059b;;
+}
+.allArround{
+    font-size: 3.2rem;
+    font-family: "Dancing Script",cursive;
+    margin-left: -40px;
+    color: rgb(75, 69, 69);
+}
+.forTheChildreen{
+    font-size: 2.5rem;
+    font-family: "Raleway",sans-serif;
+    font-weight: 700!important;
+    box-sizing: border-box;
+}
+.ourVision{
+    color: #42a1ef;
+    font-size: 1.25rem;
+    font-family: "Raleway",sans-serif;
+    font-weight: 700!important;
+}
+
+.fiftPage{
+  background-color: rgba(243,134,196,.3);;
+}
+.center{
+    text-align: center;
+}
+.viewAll{
+    text-align: center;
+    padding: 1.5em 4em;
+    background-color: #42a1ef;
+    color: #fff;
+    font-size: 18;
+    font-weight: 700;
+    border-radius: 14px;
+    border: none;
+    margin: 100px 0 0;
+}
+.learnMor{
+    text-align: center;
+    padding: 1.5em 4em;
+    background-color: #42a1ef;
+    color: #fff;
+    font-size: 18;
+    font-weight: 700;
+    border-radius: 14px;
+    border: none;
+    
+}
+.seventhPage{
+    background: linear-gradient(339.67deg,rgba(41,165,255,.189) 44.99%,rgba(41,165,255,0) 96.45%);
+}
+.certified{
+    font-size: 1.25rem;
+    font-weight: 700!important;
+}
+.glowUp{
+    font-weight: 700!important;
+    padding: 10px;
+    color: #717579;
+    font-size: calc(1.275rem + .3vw)!important;
+    margin-bottom: 0.5rem!important;
+
+}
