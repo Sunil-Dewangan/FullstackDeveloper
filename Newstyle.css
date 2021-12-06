@@ -1,0 +1,258 @@
+.firstrow {
+    height: 600px;
+    background-color: rgb(245, 214, 232);
+    color: black;
+}
+/*.bgcolor{
+    background-color: rgb(248, 201, 224) !important;
+}*/
+
+.leftimage{
+    width: 200px !important;
+    height: 400px !important;
+}
+
+    
+
+.Frow {
+    height: 90px;
+    color: black;
+}
+
+.Rowh {
+    height: 80px;
+}
+
+.uppertext{
+    font-style: italic;
+    font-size: 35px;
+    
+}
+.middletext {
+    font-size: 40px;
+    font-weight: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.downtext{
+    margin-left: 450px !important;
+    margin-bottom: 20000px !important;
+}
+
+.rightimage{ height: 450px;
+    width: 500px;
+   /* width: 250px !important;
+    height: 450px !important;
+    margin-bottom: 500px !important;
+    margin-left: 1000px !important;*/
+}
+.SecRow {
+    height: 800px;
+    background-color: rgb(217, 238, 241);
+    color: black;
+}
+.ThirdRow {
+    height: 700px;
+    background-color: rgb(234, 234, 243);
+    color: black;
+}
+.thirdpagecircle {
+    height: 300px;
+    width: 500px;
+   /* border: 10px;
+    border-color: black;*/
+    margin-bottom: 800px !important;
+}
+.thirdpagerups{
+    height: 700px;
+    width: 100px;
+}
+.viewallbutton
+ {
+    width: 200px ;
+    height: 60px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(202, 62, 155);
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+.fifthpagebutton {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(196, 191, 191);
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+}
+    .fifthpagetext{
+    
+            font-size: 70px;
+            font-family: 'Arial Narrow Bold';
+            font-weight: 100px;
+            color: rgb(139, 5, 83);
+            justify-content: center;
+            display: flex;
+        
+    
+
+    }
+
+.writesign {
+    height: 25px;
+}
+
+
+
+
+.fouthRow {
+    height: 700px;
+    background-color: white;
+    color: black;
+
+}
+.fifthrow {
+    height: 300px;
+    color: black;
+    width: 2000px;
+    background-color: rgb(236, 183, 223);
+}
+.forthpagevision{
+    font-size: 20px;
+    font-weight: 40px;
+    font: bold;
+    color: rgb(199, 18, 145);
+}
+.thirdpgthrdtext {
+    font-size: 45px;
+    font-weight: 500;
+}
+.forthpagesdtext{
+    font-size: 45px;
+    font-weight: 25PX;
+    font-family: cursive;
+}
+
+
+/*.SevenRow {
+    background-color: rgb(202, 236, 236);
+    height: 700px;
+}*/
+
+.mission {
+    font-size: 23px;
+    font-weight: 80px;
+    color: rgb(117, 6, 71);
+}
+
+.development {
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.children {
+    font-size: 40px;
+    font-weight: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Lorem {
+    font-size: 20px;
+}
+
+.sdpagebook
+{
+    height: 100px;
+    width: 100px;
+}
+.sdpagebox
+{
+    height: 100px;
+    width: 125px !important;
+    margin-top: 50px !important;
+}
+.sdpagemind
+{
+    height: 100px;
+    width: 100px;
+}
+.sdpagerectrangle
+{
+    height: 100px;
+    width: 100px !important;
+    margin-top: 50px !important;
+}
+
+.spageuppertext{
+    background-color: rgb(207, 206, 203) !important;
+}
+.AshaMaa {
+    height: 480px;
+    width: 60px;
+}
+.SevenRow {
+    background-color: rgb(202, 236, 236);
+    height: 700px;
+}
+.button5 {
+    width: 210px;
+    height: 75px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(61, 61, 196);
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+.News {
+    font-size: 30px;
+    font-family: 'Arial Narrow Bold';
+    font-weight: 100px;
+    color: rgb(139, 5, 83);
+    justify-content: center;
+    display: flex;
+}
+
+.News2 {
+    font-size: 40px;
+    font-family: 'Arial Narrow Bold';
+    font-family: cursive;
+    font-weight: 100px;
+    color: rgb(139, 5, 83);
+    justify-content: center;
+    display: flex;
+}
+
+.News3 {
+    font-size: 40px;
+    font-family: 'Arial Narrow Bold';
+    font-family: cursive;
+    font-weight: 80px;
+    color: rgb(139, 5, 83);
+    justify-content: center;
+    display: flex;
+}
+
+.secondpagebg{
+    background-color: rgb(191, 191, 243);
+}
+.ourmission{
+    /*text-align: justify !important;*/
+    margin-left: 100px !important;
+    margin-top: 100px !important;
+    color: red !important;
+    
+}
+.alldevelopment{
+    margin-bottom: 1500px !important;
+    color: black;
+}
+
+.forthechildren{
+    margin-bottom: 10000px !important;
+    color: black;
+}
