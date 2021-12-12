@@ -1,114 +1,362 @@
-.fontstylings{
-    font-size: 30px;
-    font-weight: 500;
+.firstrow {
+    height: 600px;
+    background-color: rgb(245, 214, 232);
+    color: black;
+}
+
+.navlogo {
+    height: 50px;
+    width: 250px;
+}
+
+.navtextbgcol {
+    color: black;
+    background-color: black;
+}
+
+.ItalicFont {
+    font-style: italic;
+    font-size: 35px;
+
+}
+
+.edit {
+    font-size: 40px;
+    font-weight: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.editpara {
+    font-size: 10px;
+    font-weight: 30px;
+}
+
+.Frow {
+    height: 90px;
+    color: black;
+}
+
+.Rowh {
+    height: 80px;
+}
+
+.RowhSec {
+    height: 100px;
+}
+
+
+.SwcondImg {
+    height: 500px;
+    width: 200px;
+}
+
+.SwcondImges {
+    height: 450px;
+    width: 500px;
+}
+
+.p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(61, 61, 196);
+    font-size: 20px;
+    font-weight: 300;
     text-align: center;
-    color: blue;
 }
 
-.secondpageimgstyle{
-    width: 300px !important;
-    height: 70px;
+.button2 {
+    width: 100px;
+    height: 60px;
+    border-radius: 15px;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
 }
 
-.justycntntcntr{
+.button3 {
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+    color: black;
+    background-color: rgb(196, 191, 191);
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.button4 {
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(230, 10, 156);
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.button5 {
+    width: 210px;
+    height: 75px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(61, 61, 196);
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+.meet {
+    font-size: 20px;
+    font-weight: 10px;
+    font-family: 'Arial Narrow Bold';
+
+}
+.Tmeet{
+    height: 1000px;
+    background-color: rgb(241, 222, 237);
+}
+
+.SecRow {
+    height: 800px;
+    background-color: rgb(217, 238, 241);
+    color: black;
+}
+
+.fouthRow {
+    height: 700px;
+    background-color: white;
+    color: black;
+
+}
+
+.SevenRow {
+    background-color: rgb(202, 236, 236);
+    height: 700px;
+}
+
+.mission {
+    font-size: 23px;
+    font-weight: 80px;
+    color: rgb(117, 6, 71);
+}
+
+.development {
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.children {
+    font-size: 40px;
+    font-weight: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Lorem {
+    font-size: 20px;
+}
+
+
+.ThirdRow {
+    height: 500px;
+    background-color: rgb(234, 234, 243);
+    color: black;
+
+}
+
+.fourthRow {
+    height: 800px;
+    background-color: rgb(228, 202, 222);
+    color: black;
+}
+
+.SixRow {
+
+    height: 700px;
+    background-color: aliceblue;
+}
+
+.EightRow {
+    height: 150px;
+    background-color: rgb(228, 202, 222);
+    color: black;
+}
+
+
+
+.shining {
+    font-size: 15px;
+    font-family: 'Arial Narrow Bold';
+    font-weight: 90px;
+    color: rgb(117, 6, 71);
+}
+
+.News {
+    font-size: 20px;
+    font-family: 'Arial Narrow Bold';
+    font-weight: 100px;
+    color: rgb(139, 5, 83);
     justify-content: center;
-    align-items: center;
     display: flex;
 }
 
-.lftcolbg{
-    background-color: rgb(171, 208, 230);
+.News2 {
+    font-size: 40px;
+    font-family: 'Arial Narrow Bold';
+    font-family: cursive;
+    font-weight: 100px;
+    color: rgb(139, 5, 83);
+    justify-content: center;
+    display: flex;
 }
 
-.lftcoltoptxt{
+.News3 {
+    font-size: 40px;
+    font-family: 'Arial Narrow Bold';
+    font-family: cursive;
+    font-weight: 80px;
+    color: rgb(139, 5, 83);
+    justify-content: center;
+    display: flex;
+}
+
+.who {
+    font-size: 30px;
+    font: bold;
+    font-family: cursive;
+    font-weight: 50;
+
+}
+
+.who2 {
     font-size: 45px;
-    font-weight: 200;
-    color: black;
-    /*text-align: center;*/
+    font-weight: 25PX;
+    font-family: cursive;
 }
 
-.lftcoltoptxtthick{
-    font-size: 45px;
-    font-weight: 900;
-    color: black;
-    /*text-align: center;*/
-}
-
-.numbercircle{
-    width: 65px !important;
-    height: 65px;
-    border: 2px solid black;
-    border-radius: 100%;
-}
-
-.lftpointnumber{
-    font-size: 25px;
-    font-weight: 600;
-    color: black;
-}
-
-.lftcolfeaturebold{
-    font-size: 30px;
-    font-weight: 600;
-}
-
-.lftcolfeaturenormal{
-    font-size: 20px;
-    font-weight: 300;
-}
-
-.rightcolexstingusertext{
-    font-size: 15px;
-    font-weight: 200;
-    text-align: left;
-    color: black;
-}
-
-.rightcollogintext{
-    font-size: 30px;
-    font-weight: 800;
-    text-align: left;
-    color: blue;
-    border-bottom: 5px solid blue;
-    width: 85px;
-}
-
-.rightcolregsiterext{
-    font-size: 30px;
-    font-weight: 600;
-    text-align: left;
-    color: black;
-    width: 85px;
-}
-
-.logininputfield{
-    width: 500px !important;
-    height: 65px;
-    border: 2px solid black;
-    border-radius: 10px;
-}
-
-.loginbutton{
-    width: 100px;
-    height: 40px;
-    background-color: rgb(6, 6, 136);
-    border-radius: 15px;
-    color: white;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-}
-
-.forgetpasstext{
-    font-size: 18px;
+.bright {
+    font-size: 40px;
     font-weight: 500;
-    color: orangered;
 }
 
-.googleiocnbg{
-    background-color: red;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    color: white;
+.bright2 {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+
+
+.SCR {
+    height: 300px;
+    width: 500px;
+    border: 10px;
+    border-color: black;
+
+}
+
+.vision {
+    font-size: 25px;
+    font-weight: 25px;
+    color: brown;
+}
+
+.vision2 {
+    font-size: 20px;
+    font-weight: 40px;
+    font: bold;
+    color: rgb(199, 18, 145);
+}
+
+.box1 {
+    height: 100px;
+    width: 90px;
+    border-radius: 10px;
+    color: gray;
+    background-color: aliceblue;
+}
+
+.box1text {
+
+    font-size: 30px;
+    font-family: 'Arial Narrow Bold';
+    font-weight: 90px;
+    color: black;
+
+}
+
+.Scr2 {
+    height: 700px;
+    width: 100px;
+}
+
+.FifthRow {
+    height: 400px;
+    color: black;
+    background-color: rgb(236, 183, 223);
+}
+
+.Tick {
+    height: 25px;
+}
+
+.AshaMaa {
+    height: 480px;
+    width: 60px;
+}
+
+.girls4{
+    height: 350px;
+    width: 500px;
+}
+.box {
+    color: black;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+   
+}
+
+.book
+{
+    height: 450px;
+    width: 800px;
+}
+.Donate{
+    height: 500px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+.Ddetails{
+    color: black;
+    font-weight: 50px;
+    font-size: 20px;
+    font-family:'Arial Narrow Bold'; 
+}
+.DonateImg2
+{
+    height: 500px;
+    width: 400px;
+}
+.payment
+{
+    color: rgb(34, 34, 241);
+    font-weight: 20px;
+}
+.back2
+{
+    background-color: rgb(240, 210, 215);
 }
