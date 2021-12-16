@@ -1,22 +1,34 @@
-import React from "react"
+import React from 'react'
+import { Nav, Navbar } from 'react-bootstrap'
+import AshaLogo from './images/AshaLogo.png'
+import { Row, Col } from "react-bootstrap"
 
 const Navigation = () => {
-
-    return(
+    return (
 
         <>
-        <Navbar bg="dark" variant="dark">
+            <Row >
+                <Col sm={5}>
+                    <Navbar.Brand href="#home">
+                        <Row className="navlogo">
+                            <img src={AshaLogo} alt="" />
+                        </Row>
+                    </Navbar.Brand>
 
-<Navbar.Brand href="#home">Navbar</Navbar.Brand>
-<Nav className="me-auto">
-    <Nav.Link href="#home">Home</Nav.Link>
-    <Nav.Link href="#features">Features</Nav.Link>
-    <Nav.Link href="#pricing">Pricing</Nav.Link>
-</Nav>
+                </Col>
+                <Col>
+                    <Nav.Link href="#Reachooks" className="">Learn more about us</Nav.Link>
+                </Col><Col>
+                    <Nav.Link href="#Reachooks">Get involved</Nav.Link>
 
-</Navbar>
+                </Col>
+                <Col>
+                    <Nav.Link href="#Reachooks">latest Updates</Nav.Link>
+                </Col><Col>
+                    <Nav.Link href="#Reachooks">Contact us</Nav.Link>
+                </Col>
 
-
+            </Row>
         </>
     )
 }
